@@ -3,4 +3,8 @@
 
 void MatrixDefinition(double **Matrix,int m,int Bandwidth);
 
+void MatrixMultiply(double **A,double *x,double *b,int m,int n);
+
+double Dotproduct(double *a,double *b,int n);
+
 #endif
